@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Heavy Price of Agent Memory"
-date: 2024-12-19
+date: 2025-11-23 00:00:00 +0000
 categories: [AI, Architecture, Open Source]
 ---
 
