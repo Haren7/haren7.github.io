@@ -1,0 +1,18 @@
+# Site settings
+title: Your Personal Blog Title
+email: your-email@example.com
+description: >- # This description will appear in search engines
+  Write an awesome description for your new site here. 
+  You can edit this in _config.yml.
+baseurl: "" # The subpath of your site, e.g., /blog
+url: "https://haren7.github.io" # The base hostname & protocol for your site
+
+# Theme settings
+theme: minima
+minima:
+  skin: dark
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
