@@ -15,3 +15,7 @@ minima:
 markdown: kramdown
 plugins:
   - jekyll-feed
+
+# Hide RSS feed link
+atom_feed:
+  hide: true

@@ -1,0 +1,73 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  {%- feed_meta -%}
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}
+  
+  <style>
+    /* Force dark theme */
+    body {
+      background-color: #1a1a1a !important;
+      color: #e0e0e0 !important;
+    }
+    
+    .site-header {
+      background-color: #1a1a1a !important;
+      border-top: 5px solid #424242 !important;
+      border-bottom: 1px solid #424242 !important;
+    }
+    
+    .site-title, .site-title:visited {
+      color: #e0e0e0 !important;
+    }
+    
+    .site-nav .page-link {
+      color: #e0e0e0 !important;
+    }
+    
+    a {
+      color: #66b3ff !important;
+    }
+    
+    a:visited {
+      color: #b380ff !important;
+    }
+    
+    .post-content {
+      color: #e0e0e0 !important;
+    }
+    
+    .post-header {
+      border-bottom: 1px solid #424242 !important;
+    }
+    
+    .post-title {
+      color: #e0e0e0 !important;
+    }
+    
+    .post-meta {
+      color: #b0b0b0 !important;
+    }
+    
+    .site-footer {
+      background-color: #1a1a1a !important;
+      border-top: 1px solid #424242 !important;
+      color: #b0b0b0 !important;
+    }
+    
+    .highlight {
+      background-color: #2d2d2d !important;
+    }
+    
+    pre, code {
+      background-color: #2d2d2d !important;
+      color: #e0e0e0 !important;
+    }
+  </style>
+</head>
+
