@@ -5,6 +5,8 @@ date: 2025-11-23 00:00:00 +0000
 categories: [AI, Architecture, Open Source]
 ---
 
+![Minimal Memory Architecture](/assets/images/minimal-memory-hero.png)
+
 For agents to achieve true long-term reasoning, a robust memory architecture is essential. The challenge lies in the current stack: these solutions are typically complex and fragmented, necessitating the integration of multiple databases and compute layers. This complexity requires a significant capital investment, demanding persistent infrastructure and specialised skillsets that can be prohibitive for early-stage projects.
 
 ## The Standard Stack
